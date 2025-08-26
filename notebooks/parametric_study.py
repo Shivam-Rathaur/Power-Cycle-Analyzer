@@ -25,3 +25,7 @@ plt.title("Rankine Cycle Efficiency (%)")
 plt.xlabel("Boiler Pressure [MPa]")
 plt.ylabel("Turbine Inlet Temp [°C]")
 plt.show()
+
+
+from viz.analysis import plot_efficiency_heatmap
+plot_efficiency_heatmap(df)
